@@ -17,6 +17,7 @@ class CustomGridView: UIView {
                 for _ in 0..<willBeRemoved {
                     subviews.last?.removeFromSuperview()
                 }
+                invalidateIntrinsicContentSize()
                 setNeedsLayout()
             } else if (subviews.count < squareCount) {
                 let willBeAdded = squareCount - subviews.count
@@ -25,6 +26,7 @@ class CustomGridView: UIView {
                     view.backgroundColor = squareColor
                     addSubview(view)
                 }
+                invalidateIntrinsicContentSize()
                 setNeedsLayout()
             }
         }
