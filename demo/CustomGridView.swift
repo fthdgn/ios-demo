@@ -47,10 +47,17 @@ class CustomGridView: UIView {
         invalidateIntrinsicContentSize()
     }
     
+    private func intrinsicContentSizeHeight() -> CGFloat {
+        let columnCount = Int((frame.width + minColumnDistance) / (squareSize.width + minColumnDistance))
+        let lastViewIndex = subviews.count - 1
+        let row = lastViewIndex / columnCount
+        return (CGFloat(row) * (squareSize.height + rowDistance)) + squareSize.height
+    }
+    
     override var intrinsicContentSize: CGSize {
         get {
-            let size: CGSize = .init(width: UIView.noIntrinsicMetric, height: subviews.last?.frame.maxY ?? 0)
-            print("constraint \(size)")
+            let size: CGSize = .init(width: UIView.noIntrinsicMetric, height: intrinsicContentSizeHeight())
+            print("constraint \(size) frame \(frame.size)")
             return size
         }
     }
