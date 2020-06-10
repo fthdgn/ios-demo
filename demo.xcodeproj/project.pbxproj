@@ -15,6 +15,7 @@
 		3D4FFB3D2490E0F40056F115 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FFB3C2490E0F40056F115 /* CustomGridView.swift */; };
 		3D8A72572490ED190024DE3F /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A72562490ED190024DE3F /* MyTableViewController.swift */; };
 		3D8A72592490ED310024DE3F /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A72582490ED310024DE3F /* MyViewController.swift */; };
+		3D8A725B2490F6E40024DE3F /* MyTextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A725A2490F6E40024DE3F /* MyTextTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3D4FFB3C2490E0F40056F115 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
 		3D8A72562490ED190024DE3F /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		3D8A72582490ED310024DE3F /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		3D8A725A2490F6E40024DE3F /* MyTextTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				3D4FFB302490E04F0056F115 /* LaunchScreen.storyboard */,
 				3D4FFB2B2490E04D0056F115 /* Main.storyboard */,
 				3D8A72562490ED190024DE3F /* MyTableViewController.swift */,
+				3D8A725A2490F6E40024DE3F /* MyTextTableViewController.swift */,
 				3D8A72582490ED310024DE3F /* MyViewController.swift */,
 				3D4FFB272490E04D0056F115 /* SceneDelegate.swift */,
 			);
@@ -146,6 +149,7 @@
 			files = (
 				3D4FFB262490E04D0056F115 /* AppDelegate.swift in Sources */,
 				3D4FFB282490E04D0056F115 /* SceneDelegate.swift in Sources */,
+				3D8A725B2490F6E40024DE3F /* MyTextTableViewController.swift in Sources */,
 				3D8A72572490ED190024DE3F /* MyTableViewController.swift in Sources */,
 				3D8A72592490ED310024DE3F /* MyViewController.swift in Sources */,
 				3D4FFB3D2490E0F40056F115 /* CustomGridView.swift in Sources */,
