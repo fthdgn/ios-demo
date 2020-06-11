@@ -13,15 +13,16 @@ class MyTableViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        //tablewView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "identifier", for: indexPath) as! CustomTableViewCell
-        cell.gridView.squareCount = indexPath.row * 10 + 1
+        cell.gridView.squareCount = 11
         return cell
     }
     
