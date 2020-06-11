@@ -57,7 +57,7 @@ class CustomGridView: UIView {
             let height = (CGFloat(row) * (squareSize.height + rowDistance)) + squareSize.height
             
             let size: CGSize = .init(width: UIView.noIntrinsicMetric, height: height)
-            print("constraint \(size) frame \(frame.size)")
+            print("content \(size) frame \(frame.size)")
             return size
         }
     }
